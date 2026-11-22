@@ -1,0 +1,22 @@
+/* The Meridian Vault — page chrome. The game is a fixed 1280x800 canvas;
+   the page just centres it on the same dark background as the HUD bar. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0b0e1a;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+canvas {
+  display: block;
+  width: 1280px;
+  height: 800px;
+  image-rendering: auto;
+  cursor: crosshair;
+}
